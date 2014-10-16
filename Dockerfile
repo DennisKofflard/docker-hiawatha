@@ -13,3 +13,5 @@ RUN mkdir /root/hiawatha-9.8/build/
 WORKDIR /root/hiawatha-9.8/build/
 RUN cmake ..
 RUN make
+
+EXPORT 80
