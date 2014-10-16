@@ -14,4 +14,4 @@ WORKDIR /root/hiawatha-9.8/build/
 RUN cmake ..
 RUN make
 
-EXPORT 80
+EXPOSE 80
