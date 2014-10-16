@@ -15,3 +15,5 @@ RUN cmake ..
 RUN make
 
 EXPOSE 80
+VOLUME ["/data"]
+ENTRYPOINT ["/root/hiawatha-9.8/build/hiawatha", "-d", "-c", "/data/cnf"]
